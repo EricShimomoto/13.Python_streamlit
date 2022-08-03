@@ -12,5 +12,4 @@ enableCORS=false\n\
 port = $PORT\n\
 " > ~/.streamlit/config.toml
 
-echo PORT $PORT
-streamlit run  --server.port $PORT rebound_app.py
+
